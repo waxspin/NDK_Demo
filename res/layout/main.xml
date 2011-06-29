@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" android:layout_width="fill_parent"
+	android:layout_height="fill_parent">
+	<LinearLayout android:orientation="horizontal"
+		android:gravity="center" android:layout_width="fill_parent"
+		android:layout_height="wrap_content">
+		<Button android:text="@string/btn_start_label" android:enabled="false"
+			android:layout_width="wrap_content" android:layout_height="wrap_content"
+			android:id="@+id/btnStart" />
+		<Button android:text="@string/btn_stop_label" android:enabled="false"
+			android:layout_width="wrap_content" android:layout_height="wrap_content"
+			android:id="@+id/btnStop" />
+	</LinearLayout>
+</LinearLayout>
